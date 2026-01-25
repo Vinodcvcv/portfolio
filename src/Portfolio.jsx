@@ -36,11 +36,19 @@ export default function Portfolio() {
     about: (
       <Card>
         <CardContent>
-          <h2 className="text-2xl font-semibold">Hi, I'm Vinod 👋</h2>
+          <h2 className="text-2xl font-semibold">Hi, I'm Vinod C V </h2>
           <p className="text-gray-600 dark:text-gray-300 mt-2">
             Aspiring software developer passionate about DSA, problem solving,cybersecurity,
             and building clean web applications.
           </p>
+          <div className="flex gap-2 mt-4">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">
+              Web Developer
+            </span>
+            <span className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">
+              Pen Tester
+            </span>
+          </div>
         </CardContent>
       </Card>
     ),

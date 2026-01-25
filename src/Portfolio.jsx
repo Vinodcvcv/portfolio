@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Github, Code, GraduationCap, Moon, Sun, Instagram } from "lucide-react";
+import { Github, Code, GraduationCap, Moon, Sun, Instagram, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
 
 /* ---------- SIMPLE UI COMPONENTS ---------- */
@@ -130,12 +130,23 @@ export default function Portfolio() {
 
           <p>
             <a
-              href="https://instagram.com/yourusername"
+              href="https://instagram.com/the_vinu_36"
               target="_blank"
               rel="noreferrer"
               className="text-pink-500 hover:underline"
             >
               <Instagram size={16} />
+            </a>
+          </p>
+
+          <p>
+            <a
+              href="https://x.com/_Vinod_C_V"
+              target="_blank"
+              rel="noreferrer"
+              className="text-black dark:text-white hover:underline"
+            >
+              <Twitter size={16} />
             </a>
           </p>
         </CardContent>

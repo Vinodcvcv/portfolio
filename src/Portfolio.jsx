@@ -128,7 +128,7 @@ export default function Portfolio() {
 
           <hr className="my-4 border-gray-300 dark:border-gray-600" />
 
-          <p>
+          
             <a
               href="https://instagram.com/the_vinu_36"
               target="_blank"
@@ -137,9 +137,9 @@ export default function Portfolio() {
             >
               <Instagram size={16} />
             </a>
-          </p>
+          
 
-          <p>
+          
             <a
               href="https://x.com/_Vinod_C_V"
               target="_blank"
@@ -148,7 +148,7 @@ export default function Portfolio() {
             >
               <Twitter size={16} />
             </a>
-          </p>
+          
         </CardContent>
       </Card>
     ),

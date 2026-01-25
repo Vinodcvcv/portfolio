@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Github, Code, GraduationCap, Moon, Sun } from "lucide-react";
+import { Github, Code, GraduationCap, Moon, Sun, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 
 /* ---------- SIMPLE UI COMPONENTS ---------- */
@@ -46,7 +46,7 @@ export default function Portfolio() {
               Web Developer
             </span>
             <span className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">
-              Pen Tester
+              Penetration Tester
             </span>
           </div>
         </CardContent>
@@ -123,6 +123,19 @@ export default function Portfolio() {
               className="text-blue-500 hover:underline"
             >
               Vinod C V
+            </a>
+          </p>
+
+          <hr className="my-4 border-gray-300 dark:border-gray-600" />
+
+          <p>
+            <a
+              href="https://instagram.com/yourusername"
+              target="_blank"
+              rel="noreferrer"
+              className="text-pink-500 hover:underline"
+            >
+              <Instagram size={16} />
             </a>
           </p>
         </CardContent>

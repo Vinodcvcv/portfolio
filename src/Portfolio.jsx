@@ -38,7 +38,7 @@ export default function Portfolio() {
         <CardContent>
           <h2 className="text-2xl font-semibold">Hi, I'm Vinod 👋</h2>
           <p className="text-gray-600 dark:text-gray-300 mt-2">
-            Aspiring software developer passionate about DSA, problem solving,
+            Aspiring software developer passionate about DSA, problem solving,cybersecurity,
             and building clean web applications.
           </p>
         </CardContent>
@@ -150,7 +150,7 @@ export default function Portfolio() {
               animate={{ opacity: 1, y: 0 }}
               className="text-3xl font-bold"
             >
-              My Portfolio
+              Vinod C V
             </motion.h1>
 
             <button onClick={() => setDark(!dark)}>

@@ -166,6 +166,12 @@ export default function Portfolio() {
               <p className="text-sm text-gray-500"><b>CGPA:</b> 8.35</p>
             </div>
           </div>
+          <div className="flex items-start gap-2 mt-2">
+            <div>
+              <p className="font-medium">12th (science(PCMCs))</p>
+              <p className="text-sm text-gray-500"><b>Percentage:</b> 90</p>
+            </div>
+          </div>
         </CardContent>
       </Card>
     ),

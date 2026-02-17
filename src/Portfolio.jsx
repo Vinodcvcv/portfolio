@@ -163,7 +163,7 @@ export default function Portfolio() {
               <p className="text-sm text-gray-500">
                 R V University, Bengaluru • 2025 – 2029
               </p>
-              <p className="text-sm text-gray-500">CGPA: 8.35</p>
+              <p className="font-small">CGPA: </p><p className="text-sm text-gray-500">8.35</p>
             </div>
           </div>
         </CardContent>

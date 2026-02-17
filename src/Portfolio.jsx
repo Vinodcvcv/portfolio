@@ -153,9 +153,9 @@ export default function Portfolio() {
     ),
 
     education: (<>
-      <Card>
+      <Card className="m-4">
         <CardContent>
-          <h2 className="text-xl font-semibold">Education</h2></CardContent></Card><Card>
+          <h2 className="text-xl font-semibold ">Education</h2></CardContent></Card ><Card className="m-2">
           <CardContent><div className="flex items-start gap-2 mt-2">
             <GraduationCap />
             <div>
@@ -165,7 +165,7 @@ export default function Portfolio() {
               </p>
               <p className="text-sm text-gray-500"><b>CGPA:</b> 8.35</p>
             </div>
-          </div></CardContent></Card><Card><CardContent>
+          </div></CardContent></Card><Card className="m-2"><CardContent>
           <div className="flex items-start gap-2 mt-2">
             <div>
               <p className="font-medium">12th (science(PCMCs))</p>
